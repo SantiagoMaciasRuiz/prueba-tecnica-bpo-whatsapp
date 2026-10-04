@@ -1,0 +1,36 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: prueba-tecnica-postgres
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 2s
+      timeout: 5s
+      retries: 20
+
+  metabase:
+    image: metabase/metabase:v0.51.8
+    container_name: prueba-tecnica-metabase
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      MB_DB_FILE: /metabase-data/metabase.db
+    ports:
+      - "${METABASE_PORT}:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - metabase_data:/metabase-data
+
+volumes:
+  postgres_data:
+  metabase_data:

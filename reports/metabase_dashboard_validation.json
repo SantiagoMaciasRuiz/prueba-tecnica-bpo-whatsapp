@@ -1,0 +1,158 @@
+{
+  "metabase_url": "http://localhost:3000",
+  "dashboard": {
+    "id": 2,
+    "name": "Supervisor operativo - Mensajeria",
+    "card_count": 22,
+    "parameters": [
+      "start_date",
+      "end_date",
+      "status",
+      "message_type"
+    ]
+  },
+  "kpis": {
+    "Outgoing": {
+      "expected": 2507,
+      "actual": 2507,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Read": {
+      "expected": 708,
+      "actual": 708,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Delivered": {
+      "expected": 83,
+      "actual": 83,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Fallidos": {
+      "expected": 1396,
+      "actual": 1396,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Sin template": {
+      "expected": 867,
+      "actual": 867,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Cobertura template": {
+      "expected": 65.42,
+      "actual": 65.42,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Incoming": {
+      "expected": 430,
+      "actual": 430,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Respondidos": {
+      "expected": 369,
+      "actual": 369,
+      "difference": 0.0,
+      "passed": true
+    },
+    "Sin respuesta": {
+      "expected": 61,
+      "actual": 61,
+      "difference": 0.0,
+      "passed": true
+    },
+    "SLA promedio (min)": {
+      "expected": 127.24,
+      "actual": 127.24,
+      "difference": 0.0,
+      "passed": true
+    },
+    "SLA mediana (min)": {
+      "expected": 0.68,
+      "actual": 0.68,
+      "difference": 0.0,
+      "passed": true
+    },
+    "SLA P95 (min)": {
+      "expected": 1152.68,
+      "actual": 1152.68,
+      "difference": 0.0,
+      "passed": true
+    }
+  },
+  "hourly": {
+    "hours_returned": 24,
+    "sum_incoming": 430,
+    "expected_sum": 430,
+    "difference": 0,
+    "passed": true,
+    "values": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 13,
+      "13": 21,
+      "14": 21,
+      "15": 83,
+      "16": 65,
+      "17": 27,
+      "18": 21,
+      "19": 62,
+      "20": 25,
+      "21": 30,
+      "22": 30,
+      "23": 31
+    }
+  },
+  "filters": {
+    "status_failed": {
+      "actual": 1396,
+      "expected": 1396,
+      "difference": 0,
+      "elapsed_ms": 70.47,
+      "passed": true
+    },
+    "status_read": {
+      "actual": 708,
+      "expected": 708,
+      "difference": 0,
+      "elapsed_ms": 53.68,
+      "passed": true
+    },
+    "date_range": {
+      "actual": 1,
+      "elapsed_ms": 42.02,
+      "changed_from_unfiltered": true
+    }
+  },
+  "query_timings_ms": {
+    "Outgoing": 44.53,
+    "Read": 43.63,
+    "Delivered": 48.29,
+    "Fallidos": 48.13,
+    "Sin template": 60.22,
+    "Cobertura template": 46.22,
+    "Incoming": 49.06,
+    "Respondidos": 80.64,
+    "Sin respuesta": 72.64,
+    "SLA promedio (min)": 52.78,
+    "SLA mediana (min)": 51.04,
+    "SLA P95 (min)": 47.25,
+    "Demanda horaria": 44.52
+  },
+  "passed": true
+}

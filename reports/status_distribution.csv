@@ -1,0 +1,5 @@
+status,count,percentage
+sent,1500,40.68
+failed,1396,37.86
+read,708,19.2
+delivered,83,2.25

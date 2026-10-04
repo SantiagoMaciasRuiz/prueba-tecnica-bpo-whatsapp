@@ -1,0 +1,16 @@
+template_name,status,count,percentage
+ampliaciones_zafiro,delivered,12,0.73
+ampliaciones_zafiro,failed,11,0.67
+ampliaciones_zafiro,read,27,1.65
+ampliaciones_zafiro,sent,4,0.24
+bienvenida,read,2,0.12
+lanzamiento_,failed,1352,82.44
+lanzamiento__activas_v2,delivered,18,1.1
+lanzamiento__activas_v2,failed,8,0.49
+lanzamiento__activas_v2,read,156,9.51
+lanzamiento__inactivas,failed,22,1.34
+rechazos_zafiro,read,4,0.24
+saludo,delivered,3,0.18
+saludo,failed,2,0.12
+saludo,read,17,1.04
+saludo,sent,2,0.12

@@ -1,0 +1,263 @@
+{
+  "total_rows": 3687,
+  "source_rows": 3687,
+  "processed_rows": 3687,
+  "exported_rows": 3687,
+  "row_difference": 0,
+  "is_valid": true,
+  "columns": {
+    "original": [
+      "id",
+      "content",
+      "account_id",
+      "inbox_id",
+      "conversation_id",
+      "message_type",
+      "created_at",
+      "updated_at",
+      "private",
+      "status",
+      "source_id",
+      "content_type",
+      "content_attributes",
+      "sender_type",
+      "sender_id",
+      "additional_attributes",
+      "processed_message_content",
+      "sentiment",
+      "contact_id",
+      "sistema_lead_id",
+      "conversation_display_id",
+      "id_sistema",
+      "id_db_externa",
+      "id_leads_db_externa"
+    ],
+    "conserved": [
+      "id",
+      "content",
+      "account_id",
+      "inbox_id",
+      "conversation_id",
+      "message_type",
+      "created_at",
+      "updated_at",
+      "private",
+      "status",
+      "source_id",
+      "content_type",
+      "content_attributes",
+      "sender_type",
+      "sender_id",
+      "additional_attributes",
+      "processed_message_content",
+      "sentiment",
+      "contact_id",
+      "sistema_lead_id",
+      "conversation_display_id",
+      "id_sistema",
+      "id_db_externa",
+      "id_leads_db_externa",
+      "external_error",
+      "template_name",
+      "sistema_call_source",
+      "sistema_management_answers",
+      "in_reply_to",
+      "in_reply_to_external_id",
+      "content_json_status",
+      "additional_json_status",
+      "event_category",
+      "message_category",
+      "date",
+      "hour",
+      "day_of_week"
+    ],
+    "discarded": [],
+    "discarded_justification": "Ninguna columna fue descartada por el transformer."
+  },
+  "checks": {
+    "duplicate_id_rows": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "empty_id": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "empty_conversation_id": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "empty_content": {
+      "count": 119,
+      "percentage": 3.23
+    },
+    "empty_status": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "invalid_created_at": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "invalid_updated_at": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "unexpected_message_type": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "unexpected_status": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "incoming_unclassified": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "business_rule_violations": {
+    "incoming_not_user_message": 0,
+    "activity_not_system_activity": 0,
+    "failed_outgoing_not_delivery_error": 0
+  },
+  "unexpected_values": {
+    "message_type": [],
+    "status": [],
+    "message_type_distribution": {
+      "outgoing": {
+        "count": 2507,
+        "percentage": 68.0
+      },
+      "activity": {
+        "count": 750,
+        "percentage": 20.34
+      },
+      "incoming": {
+        "count": 430,
+        "percentage": 11.66
+      }
+    },
+    "status_distribution": {
+      "sent": {
+        "count": 1500,
+        "percentage": 40.68
+      },
+      "failed": {
+        "count": 1396,
+        "percentage": 37.86
+      },
+      "read": {
+        "count": 708,
+        "percentage": 19.2
+      },
+      "delivered": {
+        "count": 83,
+        "percentage": 2.25
+      }
+    }
+  },
+  "json": {
+    "content_json_status": {
+      "valid": {
+        "count": 3687,
+        "percentage": 100.0
+      }
+    },
+    "additional_json_status": {
+      "valid": {
+        "count": 3687,
+        "percentage": 100.0
+      }
+    }
+  },
+  "derived_fields": {
+    "external_error": {
+      "count": 1396,
+      "percentage": 37.86
+    },
+    "template_name": {
+      "count": 1640,
+      "percentage": 44.48
+    },
+    "sistema_call_source": {
+      "count": 301,
+      "percentage": 8.16
+    },
+    "in_reply_to": {
+      "count": 19,
+      "percentage": 0.52
+    }
+  },
+  "distributions": {
+    "message_category": {
+      "(empty)": {
+        "count": 3257,
+        "percentage": 88.34
+      },
+      "Otros": {
+        "count": 375,
+        "percentage": 10.17
+      },
+      "Soporte": {
+        "count": 22,
+        "percentage": 0.6
+      },
+      "Pedido": {
+        "count": 21,
+        "percentage": 0.57
+      },
+      "Queja": {
+        "count": 12,
+        "percentage": 0.33
+      }
+    },
+    "event_category": {
+      "delivery_error": {
+        "count": 1396,
+        "percentage": 37.86
+      },
+      "bot_message": {
+        "count": 1111,
+        "percentage": 30.13
+      },
+      "system_activity": {
+        "count": 750,
+        "percentage": 20.34
+      },
+      "user_message": {
+        "count": 430,
+        "percentage": 11.66
+      }
+    }
+  },
+  "incoming": {
+    "total": 430,
+    "classified": 430,
+    "unclassified": 0,
+    "distribution": {
+      "Otros": {
+        "count": 375,
+        "percentage": 87.21
+      },
+      "Soporte": {
+        "count": 22,
+        "percentage": 5.12
+      },
+      "Pedido": {
+        "count": 21,
+        "percentage": 4.88
+      },
+      "Queja": {
+        "count": 12,
+        "percentage": 2.79
+      }
+    }
+  },
+  "date_range": {
+    "created_at_min": "2023-07-25T00:39:08",
+    "created_at_max": "2023-08-02T14:20:12",
+    "updated_at_min": "2023-07-26T00:19:51",
+    "updated_at_max": "2023-08-11T19:31:01"
+  }
+}

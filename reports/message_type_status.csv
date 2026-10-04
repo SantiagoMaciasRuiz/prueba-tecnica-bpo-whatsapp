@@ -1,0 +1,7 @@
+message_type,status,count,percentage
+activity,sent,750,20.34
+incoming,sent,430,11.66
+outgoing,delivered,83,2.25
+outgoing,failed,1396,37.86
+outgoing,read,708,19.2
+outgoing,sent,320,8.68

@@ -1,0 +1,6 @@
+external_error,message_type,count
+(#132000) Number of parameters does not match the expected number of params,outgoing,1374
+130472: User's number is part of an experiment,outgoing,5
+131026: Message undeliverable,outgoing,8
+131049: This message was not delivered to maintain healthy ecosystem engagement.,outgoing,8
+Template not found or invalid template name,outgoing,1

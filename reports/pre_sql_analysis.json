@@ -1,0 +1,841 @@
+{
+  "integrity": {
+    "total_records": 3687,
+    "total_ids": 3687,
+    "unique_ids": 3687,
+    "duplicate_id_rows": 0,
+    "total_conversation_ids": 2153,
+    "unique_conversation_ids": 2153,
+    "created_at_min": "2023-07-25T00:39:08",
+    "created_at_max": "2023-08-02T14:20:12"
+  },
+  "message_type_distribution": [
+    {
+      "message_type": "outgoing",
+      "count": 2507,
+      "percentage": 68.0
+    },
+    {
+      "message_type": "activity",
+      "count": 750,
+      "percentage": 20.34
+    },
+    {
+      "message_type": "incoming",
+      "count": 430,
+      "percentage": 11.66
+    }
+  ],
+  "status_distribution": [
+    {
+      "status": "sent",
+      "count": 1500,
+      "percentage": 40.68
+    },
+    {
+      "status": "failed",
+      "count": 1396,
+      "percentage": 37.86
+    },
+    {
+      "status": "read",
+      "count": 708,
+      "percentage": 19.2
+    },
+    {
+      "status": "delivered",
+      "count": 83,
+      "percentage": 2.25
+    }
+  ],
+  "message_type_status": [
+    {
+      "message_type": "activity",
+      "status": "sent",
+      "count": 750,
+      "percentage": 20.34
+    },
+    {
+      "message_type": "incoming",
+      "status": "sent",
+      "count": 430,
+      "percentage": 11.66
+    },
+    {
+      "message_type": "outgoing",
+      "status": "delivered",
+      "count": 83,
+      "percentage": 2.25
+    },
+    {
+      "message_type": "outgoing",
+      "status": "failed",
+      "count": 1396,
+      "percentage": 37.86
+    },
+    {
+      "message_type": "outgoing",
+      "status": "read",
+      "count": 708,
+      "percentage": 19.2
+    },
+    {
+      "message_type": "outgoing",
+      "status": "sent",
+      "count": 320,
+      "percentage": 8.68
+    }
+  ],
+  "outgoing_funnel": {
+    "denominator": 2507,
+    "denominator_definition": "total outgoing",
+    "rows": [
+      {
+        "state": "read",
+        "count": 708,
+        "percentage": 28.24
+      },
+      {
+        "state": "delivered",
+        "count": 83,
+        "percentage": 3.31
+      },
+      {
+        "state": "failed",
+        "count": 1396,
+        "percentage": 55.68
+      }
+    ]
+  },
+  "external_error": {
+    "with_error": {
+      "count": 1396,
+      "percentage": 37.86
+    },
+    "without_error": {
+      "count": 2291,
+      "percentage": 62.14
+    },
+    "top": [
+      {
+        "external_error": "(#132000) Number of parameters does not match the expected number of params",
+        "count": 1374,
+        "percentage": 98.42
+      },
+      {
+        "external_error": "131049: This message was not delivered to maintain healthy ecosystem engagement.",
+        "count": 8,
+        "percentage": 0.57
+      },
+      {
+        "external_error": "131026: Message undeliverable",
+        "count": 8,
+        "percentage": 0.57
+      },
+      {
+        "external_error": "130472: User's number is part of an experiment",
+        "count": 5,
+        "percentage": 0.36
+      },
+      {
+        "external_error": "Template not found or invalid template name",
+        "count": 1,
+        "percentage": 0.07
+      }
+    ],
+    "by_status": [
+      {
+        "external_error": "(#132000) Number of parameters does not match the expected number of params",
+        "status": "failed",
+        "count": 1374
+      },
+      {
+        "external_error": "130472: User's number is part of an experiment",
+        "status": "failed",
+        "count": 5
+      },
+      {
+        "external_error": "131026: Message undeliverable",
+        "status": "failed",
+        "count": 8
+      },
+      {
+        "external_error": "131049: This message was not delivered to maintain healthy ecosystem engagement.",
+        "status": "failed",
+        "count": 8
+      },
+      {
+        "external_error": "Template not found or invalid template name",
+        "status": "failed",
+        "count": 1
+      }
+    ],
+    "by_message_type": [
+      {
+        "external_error": "(#132000) Number of parameters does not match the expected number of params",
+        "message_type": "outgoing",
+        "count": 1374
+      },
+      {
+        "external_error": "130472: User's number is part of an experiment",
+        "message_type": "outgoing",
+        "count": 5
+      },
+      {
+        "external_error": "131026: Message undeliverable",
+        "message_type": "outgoing",
+        "count": 8
+      },
+      {
+        "external_error": "131049: This message was not delivered to maintain healthy ecosystem engagement.",
+        "message_type": "outgoing",
+        "count": 8
+      },
+      {
+        "external_error": "Template not found or invalid template name",
+        "message_type": "outgoing",
+        "count": 1
+      }
+    ]
+  },
+  "templates": {
+    "distinct_count": 7,
+    "distribution": [
+      {
+        "template_name": "lanzamiento_",
+        "count": 1352,
+        "percentage": 82.44
+      },
+      {
+        "template_name": "lanzamiento__activas_v2",
+        "count": 182,
+        "percentage": 11.1
+      },
+      {
+        "template_name": "ampliaciones_zafiro",
+        "count": 54,
+        "percentage": 3.29
+      },
+      {
+        "template_name": "saludo",
+        "count": 24,
+        "percentage": 1.46
+      },
+      {
+        "template_name": "lanzamiento__inactivas",
+        "count": 22,
+        "percentage": 1.34
+      },
+      {
+        "template_name": "rechazos_zafiro",
+        "count": 4,
+        "percentage": 0.24
+      },
+      {
+        "template_name": "bienvenida",
+        "count": 2,
+        "percentage": 0.12
+      }
+    ],
+    "by_status": [
+      {
+        "template_name": "ampliaciones_zafiro",
+        "status": "delivered",
+        "count": 12,
+        "percentage": 0.73
+      },
+      {
+        "template_name": "ampliaciones_zafiro",
+        "status": "failed",
+        "count": 11,
+        "percentage": 0.67
+      },
+      {
+        "template_name": "ampliaciones_zafiro",
+        "status": "read",
+        "count": 27,
+        "percentage": 1.65
+      },
+      {
+        "template_name": "ampliaciones_zafiro",
+        "status": "sent",
+        "count": 4,
+        "percentage": 0.24
+      },
+      {
+        "template_name": "bienvenida",
+        "status": "read",
+        "count": 2,
+        "percentage": 0.12
+      },
+      {
+        "template_name": "lanzamiento_",
+        "status": "failed",
+        "count": 1352,
+        "percentage": 82.44
+      },
+      {
+        "template_name": "lanzamiento__activas_v2",
+        "status": "delivered",
+        "count": 18,
+        "percentage": 1.1
+      },
+      {
+        "template_name": "lanzamiento__activas_v2",
+        "status": "failed",
+        "count": 8,
+        "percentage": 0.49
+      },
+      {
+        "template_name": "lanzamiento__activas_v2",
+        "status": "read",
+        "count": 156,
+        "percentage": 9.51
+      },
+      {
+        "template_name": "lanzamiento__inactivas",
+        "status": "failed",
+        "count": 22,
+        "percentage": 1.34
+      },
+      {
+        "template_name": "rechazos_zafiro",
+        "status": "read",
+        "count": 4,
+        "percentage": 0.24
+      },
+      {
+        "template_name": "saludo",
+        "status": "delivered",
+        "count": 3,
+        "percentage": 0.18
+      },
+      {
+        "template_name": "saludo",
+        "status": "failed",
+        "count": 2,
+        "percentage": 0.12
+      },
+      {
+        "template_name": "saludo",
+        "status": "read",
+        "count": 17,
+        "percentage": 1.04
+      },
+      {
+        "template_name": "saludo",
+        "status": "sent",
+        "count": 2,
+        "percentage": 0.12
+      }
+    ],
+    "failed_count": 1395,
+    "with_external_error_count": 1395
+  },
+  "conversations": {
+    "distinct_count": 2153,
+    "average_messages": 1.712494194147701,
+    "median_messages": 1.0,
+    "min_messages": 1,
+    "max_messages": 44,
+    "p90_messages": 2.7999999999999545
+  },
+  "temporal_order": {
+    "repeated_timestamp_groups": 28,
+    "rows_in_repeated_timestamp_groups": 68,
+    "conversations_out_of_source_order": 179,
+    "out_of_order_examples": [
+      {
+        "conversation_id": "6.301",
+        "source_order_ids": [
+          "49.903",
+          "44.007"
+        ],
+        "sorted_order_ids": [
+          "44.007",
+          "49.903"
+        ]
+      },
+      {
+        "conversation_id": "9.415",
+        "source_order_ids": [
+          "51.449",
+          "54.644",
+          "54.645",
+          "51.445"
+        ],
+        "sorted_order_ids": [
+          "51.445",
+          "51.449",
+          "54.644",
+          "54.645"
+        ]
+      },
+      {
+        "conversation_id": "7.356",
+        "source_order_ids": [
+          "52.527",
+          "51.464",
+          "54.647",
+          "51.466",
+          "51.467",
+          "51.468",
+          "51.469",
+          "51.473"
+        ],
+        "sorted_order_ids": [
+          "51.464",
+          "51.466",
+          "51.467",
+          "51.468",
+          "51.469",
+          "51.473",
+          "52.527",
+          "54.647"
+        ]
+      },
+      {
+        "conversation_id": "1.308",
+        "source_order_ids": [
+          "52.554",
+          "52.555",
+          "52.560",
+          "52.562",
+          "52.563",
+          "52.606",
+          "52.609",
+          "50.193"
+        ],
+        "sorted_order_ids": [
+          "50.193",
+          "52.554",
+          "52.555",
+          "52.560",
+          "52.562",
+          "52.563",
+          "52.606",
+          "52.609"
+        ]
+      },
+      {
+        "conversation_id": "6.972",
+        "source_order_ids": [
+          "54.653",
+          "51.457",
+          "54.651",
+          "51.487",
+          "51.489"
+        ],
+        "sorted_order_ids": [
+          "51.457",
+          "51.487",
+          "51.489",
+          "54.651",
+          "54.653"
+        ]
+      },
+      {
+        "conversation_id": "2.158",
+        "source_order_ids": [
+          "41.906",
+          "41.908",
+          "41.911",
+          "41.912",
+          "41.913",
+          "41.914",
+          "41.917",
+          "41.918",
+          "41.919",
+          "37.181"
+        ],
+        "sorted_order_ids": [
+          "37.181",
+          "41.906",
+          "41.908",
+          "41.911",
+          "41.912",
+          "41.913",
+          "41.914",
+          "41.917",
+          "41.918",
+          "41.919"
+        ]
+      },
+      {
+        "conversation_id": "1.191",
+        "source_order_ids": [
+          "54.655",
+          "54.656",
+          "54.625",
+          "54.654",
+          "54.661",
+          "54.663",
+          "54.665",
+          "49.968",
+          "54.749",
+          "54.750"
+        ],
+        "sorted_order_ids": [
+          "49.968",
+          "50.182",
+          "54.625",
+          "54.654",
+          "54.655",
+          "54.656",
+          "54.661",
+          "54.663",
+          "54.665",
+          "54.749"
+        ]
+      },
+      {
+        "conversation_id": "1.911",
+        "source_order_ids": [
+          "51.450",
+          "54.658",
+          "52.565",
+          "54.659",
+          "54.657",
+          "51.490",
+          "32.257",
+          "32.861"
+        ],
+        "sorted_order_ids": [
+          "32.257",
+          "32.861",
+          "51.450",
+          "51.490",
+          "52.565",
+          "54.657",
+          "54.658",
+          "54.659"
+        ]
+      },
+      {
+        "conversation_id": "3.195",
+        "source_order_ids": [
+          "49.905",
+          "49.906",
+          "49.907",
+          "49.908",
+          "48.812",
+          "53.384",
+          "53.385"
+        ],
+        "sorted_order_ids": [
+          "48.812",
+          "49.905",
+          "49.906",
+          "49.907",
+          "49.908",
+          "53.384",
+          "53.385"
+        ]
+      },
+      {
+        "conversation_id": "2.559",
+        "source_order_ids": [
+          "31.892",
+          "30.500",
+          "30.571"
+        ],
+        "sorted_order_ids": [
+          "30.500",
+          "30.571",
+          "31.892"
+        ]
+      }
+    ],
+    "sort_rule": [
+      "conversation_id",
+      "created_at",
+      "id"
+    ]
+  },
+  "sla": {
+    "definition": "For each incoming, first later activity or outgoing in the same conversation; incoming followed by incoming is not a response.",
+    "incoming_total": 430,
+    "incoming_with_response": 369,
+    "incoming_without_response": 61,
+    "response_stats_minutes": {
+      "min": 0.0,
+      "mean": 127.24385727190607,
+      "median": 0.6833333333333333,
+      "max": 2695.8166666666666,
+      "p90": 81.32666666666667,
+      "p95": 1152.6833333333334
+    },
+    "sequence_patterns": {
+      "incoming_activity": 15,
+      "incoming_outgoing": 228,
+      "incoming_activity_outgoing": 3,
+      "incoming_incoming": 144,
+      "incoming_end": 40
+    },
+    "extreme_examples": [
+      {
+        "conversation_id": "9.415",
+        "incoming_id": "51.449",
+        "incoming_created_at": "2023-07-30T22:31:12.000",
+        "immediate_next_event_type": "outgoing",
+        "immediate_next_event_created_at": "2023-08-01T19:27:01.000",
+        "next_action_type": "outgoing",
+        "next_action_created_at": "2023-08-01T19:27:01.000",
+        "response_minutes": 2695.8166666667,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "6.972",
+        "incoming_id": "51.487",
+        "incoming_created_at": "2023-07-30T22:44:38.000",
+        "immediate_next_event_type": "incoming",
+        "immediate_next_event_created_at": "2023-07-30T22:45:05.000",
+        "next_action_type": "outgoing",
+        "next_action_created_at": "2023-08-01T19:28:49.000",
+        "response_minutes": 2684.1833333333,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "6.972",
+        "incoming_id": "51.489",
+        "incoming_created_at": "2023-07-30T22:45:05.000",
+        "immediate_next_event_type": "outgoing",
+        "immediate_next_event_created_at": "2023-08-01T19:28:49.000",
+        "next_action_type": "outgoing",
+        "next_action_created_at": "2023-08-01T19:28:49.000",
+        "response_minutes": 2683.7333333333,
+        "message_category": "Soporte"
+      },
+      {
+        "conversation_id": "3.620",
+        "incoming_id": "49.097",
+        "incoming_created_at": "2023-07-30T15:13:39.000",
+        "immediate_next_event_type": "activity",
+        "immediate_next_event_created_at": "2023-07-31T23:41:18.000",
+        "next_action_type": "activity",
+        "next_action_created_at": "2023-07-31T23:41:18.000",
+        "response_minutes": 1947.65,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "8.435",
+        "incoming_id": "49.904",
+        "incoming_created_at": "2023-07-30T15:50:18.000",
+        "immediate_next_event_type": "activity",
+        "immediate_next_event_created_at": "2023-07-31T23:54:16.000",
+        "next_action_type": "activity",
+        "next_action_created_at": "2023-07-31T23:54:16.000",
+        "response_minutes": 1923.9666666667,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "3.187",
+        "incoming_id": "49.912",
+        "incoming_created_at": "2023-07-30T15:51:34.000",
+        "immediate_next_event_type": "activity",
+        "immediate_next_event_created_at": "2023-07-31T23:54:46.000",
+        "next_action_type": "activity",
+        "next_action_created_at": "2023-07-31T23:54:46.000",
+        "response_minutes": 1923.2,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "4.636",
+        "incoming_id": "49.942",
+        "incoming_created_at": "2023-07-30T15:56:34.000",
+        "immediate_next_event_type": "incoming",
+        "immediate_next_event_created_at": "2023-07-30T15:56:46.000",
+        "next_action_type": "activity",
+        "next_action_created_at": "2023-07-31T23:54:50.000",
+        "response_minutes": 1918.2666666667,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "4.636",
+        "incoming_id": "49.944",
+        "incoming_created_at": "2023-07-30T15:56:46.000",
+        "immediate_next_event_type": "activity",
+        "immediate_next_event_created_at": "2023-07-31T23:54:50.000",
+        "next_action_type": "activity",
+        "next_action_created_at": "2023-07-31T23:54:50.000",
+        "response_minutes": 1918.0666666667,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "7.015",
+        "incoming_id": "49.959",
+        "incoming_created_at": "2023-07-30T16:03:48.000",
+        "immediate_next_event_type": "activity",
+        "immediate_next_event_created_at": "2023-07-31T23:54:54.000",
+        "next_action_type": "activity",
+        "next_action_created_at": "2023-07-31T23:54:54.000",
+        "response_minutes": 1911.1,
+        "message_category": "Otros"
+      },
+      {
+        "conversation_id": "991",
+        "incoming_id": "42.488",
+        "incoming_created_at": "2023-07-30T14:20:11.000",
+        "immediate_next_event_type": "activity",
+        "immediate_next_event_created_at": "2023-07-31T18:10:42.000",
+        "next_action_type": "activity",
+        "next_action_created_at": "2023-07-31T18:10:42.000",
+        "response_minutes": 1670.5166666667,
+        "message_category": "Otros"
+      }
+    ]
+  },
+  "timezone": {
+    "format": "YYYY-MM-DD HH:MM:SS",
+    "offset_present": false,
+    "timezone_present": false,
+    "implication": "Las horas se analizan tal como vienen en el archivo; no se aplica conversión de zona horaria."
+  },
+  "hourly_incoming": [
+    {
+      "hour": 0,
+      "count": 1,
+      "percentage": 0.23
+    },
+    {
+      "hour": 12,
+      "count": 13,
+      "percentage": 3.02
+    },
+    {
+      "hour": 13,
+      "count": 21,
+      "percentage": 4.88
+    },
+    {
+      "hour": 14,
+      "count": 21,
+      "percentage": 4.88
+    },
+    {
+      "hour": 15,
+      "count": 83,
+      "percentage": 19.3
+    },
+    {
+      "hour": 16,
+      "count": 65,
+      "percentage": 15.12
+    },
+    {
+      "hour": 17,
+      "count": 27,
+      "percentage": 6.28
+    },
+    {
+      "hour": 18,
+      "count": 21,
+      "percentage": 4.88
+    },
+    {
+      "hour": 19,
+      "count": 62,
+      "percentage": 14.42
+    },
+    {
+      "hour": 20,
+      "count": 25,
+      "percentage": 5.81
+    },
+    {
+      "hour": 21,
+      "count": 30,
+      "percentage": 6.98
+    },
+    {
+      "hour": 22,
+      "count": 30,
+      "percentage": 6.98
+    },
+    {
+      "hour": 23,
+      "count": 31,
+      "percentage": 7.21
+    }
+  ],
+  "message_category": {
+    "distribution": [
+      {
+        "message_category": "Otros",
+        "count": 375,
+        "percentage": 87.21
+      },
+      {
+        "message_category": "Soporte",
+        "count": 22,
+        "percentage": 5.12
+      },
+      {
+        "message_category": "Pedido",
+        "count": 21,
+        "percentage": 4.88
+      },
+      {
+        "message_category": "Queja",
+        "count": 12,
+        "percentage": 2.79
+      }
+    ],
+    "unexpected_categories": []
+  },
+  "category_response": [
+    {
+      "message_category": "Otros",
+      "has_response_label": "no",
+      "count": 53
+    },
+    {
+      "message_category": "Otros",
+      "has_response_label": "yes",
+      "count": 322
+    },
+    {
+      "message_category": "Pedido",
+      "has_response_label": "no",
+      "count": 3
+    },
+    {
+      "message_category": "Pedido",
+      "has_response_label": "yes",
+      "count": 18
+    },
+    {
+      "message_category": "Queja",
+      "has_response_label": "no",
+      "count": 1
+    },
+    {
+      "message_category": "Queja",
+      "has_response_label": "yes",
+      "count": 11
+    },
+    {
+      "message_category": "Soporte",
+      "has_response_label": "no",
+      "count": 4
+    },
+    {
+      "message_category": "Soporte",
+      "has_response_label": "yes",
+      "count": 18
+    }
+  ],
+  "golden_results": {
+    "total_rows": 3687,
+    "total_outgoing": 2507,
+    "outgoing_read": 708,
+    "outgoing_delivered": 83,
+    "outgoing_failed": 1396,
+    "total_incoming": 430,
+    "conversations": 2153,
+    "incoming_with_response": 369,
+    "incoming_without_response": 61,
+    "sla_mean_minutes": 127.24385727190607,
+    "sla_median_minutes": 0.6833333333333333
+  }
+}
